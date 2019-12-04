@@ -23,9 +23,4 @@ import { ProjectsComponent } from './projects/projects.component';
   bootstrap: [AppComponent]
 })
 
-@NgModule({
-  imports: [
-    HttpClientModule,
-  ],
-})
 export class AppModule { }
