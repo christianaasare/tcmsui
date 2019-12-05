@@ -7,18 +7,23 @@ import { AppComponent } from './app.component';
 import { ClientsComponent } from './clients/clients.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormComponent } from './form/form.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ClientsComponent,
     HomeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
